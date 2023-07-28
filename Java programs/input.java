@@ -17,5 +17,7 @@ public class input {
         System.out.print("Sum of the two numbers is: ");
         System.out.println(sum);
 
+
+        // Ignore the "Resource leak" ERROR!!
     }
 }
