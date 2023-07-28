@@ -11,12 +11,14 @@ public class literals {
         char ch = 'A'; // need to tell the compiler that it is a "char" by using single quotes ('')
         float f1 = 5.6f; //need to tell the compiler that it is "float" number with using "f" or "F" at the end. Otherwise it will default to "double".
         double d1 = 5.6; // no need to tell the compiler that it is a "double", it knows by default.
-        
+        boolean t = true;
+
         System.out.println(age);
-        System.out.println(age2);
+        System.out.println(age2); 
         System.out.print(num);
         System.out.println(ch);
         System.out.println(f1);
         System.out.println(d1);
+        System.out.println(t);
     }
 }
