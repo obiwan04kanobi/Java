@@ -12,6 +12,7 @@ public class literals {
         float f1 = 5.6f; //need to tell the compiler that it is "float" number with using "f" or "F" at the end. Otherwise it will default to "double".
         double d1 = 5.6; // no need to tell the compiler that it is a "double", it knows by default.
         boolean t = true;
+        String str = "Hello"; 
 
         System.out.println(age);
         System.out.println(age2); 
@@ -20,5 +21,6 @@ public class literals {
         System.out.println(f1);
         System.out.println(d1);
         System.out.println(t);
-    }
+        System.out.println(str);
+    } 
 }
