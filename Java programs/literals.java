@@ -3,7 +3,7 @@
 
 public class literals {
     public static void main(String[] args) {
-        // in case of integers (like byte,int,short..etc) the compiler already knows what that data type is when the correct integer keyword is used.
+        // in case of integers (byte,int,short,long) the compiler already knows what that data type is when the correct integer keyword is used.
 
         byte age = 34;  
         int age2 = 56;
