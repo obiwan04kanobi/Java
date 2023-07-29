@@ -5,7 +5,7 @@
  * to show the actual grade.
  */
 
-public class typecasting {
+public class type_casting {
     public static void main(String[] args) {
         
         char ac_grade = 'B';
