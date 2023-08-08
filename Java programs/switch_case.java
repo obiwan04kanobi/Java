@@ -7,6 +7,7 @@ public class switch_case {
         System.out.println("Enter Age: ");
         int age = sc.nextInt();
 
+        /* 
         if (age < 5){
             System.out.println("You are a Baby");
         }
@@ -22,5 +23,24 @@ public class switch_case {
         else{
             System.out.println("You are an Adult");
         }
+        */
+
+        switch(age){
+            case 18:
+            System.out.println("You are going to become an Adult!");
+            break;
+            
+            case 23:
+            System.out.println("You are going to join a Job!");
+            break;
+
+            case 60:
+            System.out.println("You are going to get retired!");
+            break;
+
+            default:
+            System.out.println("Enjoy Your life!");
+        }
+        System.out.println("Thanks for using my Java Code!");
     }
 }
