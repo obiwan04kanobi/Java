@@ -13,9 +13,13 @@ public class operators {
         int b = sc.nextInt();
         
         int sum = a + b;
-        
+        int sub = a - b;
+
         //print output
         System.out.println("Sum: ");
         System.out.println(sum);
-    }    
+        System.out.println("Sub: ");
+        System.out.println(sub);
+    
+    }   
 }
