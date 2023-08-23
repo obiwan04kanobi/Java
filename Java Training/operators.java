@@ -14,12 +14,15 @@ public class operators {
         
         int sum = a + b;
         int sub = a - b;
+        int mul = a * b;
 
         //print output
         System.out.println("Sum: ");
         System.out.println(sum);
         System.out.println("Sub: ");
         System.out.println(sub);
+        System.out.println("Mul: ");
+        System.out.println(mul);
     
     }   
 }
