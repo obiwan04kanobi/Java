@@ -7,13 +7,13 @@ public class practice_ch4 {
         
         System.out.println("Enter marks in each subject out of 100");
         System.out.println("Subject 1 Marks: ");
-        int s1 = sc.nextInt();
+        byte s1 = sc.nextByte();
         System.out.println("Subject 2 Marks: ");
-        int s2 = sc.nextInt();
+        byte s2 = sc.nextByte();
         System.out.println("Subject 3 Marks: ");
-        int s3 = sc.nextInt();
+        byte s3 = sc.nextByte();
 
-        int total = (s1 + s2 + s3)/3;
+        float total = (s1 + s2 + s3)/3.0f;
 
         if (total >= 40 & s1 >= 33 & s2 >= 33 & s3 >= 33){            
             System.out.println("PASS with "+ total+"%");
