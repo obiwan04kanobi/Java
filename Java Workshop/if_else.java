@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Looping {
+public class if_else {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
