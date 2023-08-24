@@ -10,7 +10,7 @@ public class greatest_number {
         int a = sc.nextInt();
         System.out.println("B:");
         int b = sc.nextInt();
-        System.out.println("B:");
+        System.out.println("C:");
         int c = sc.nextInt();
 
         if (a>b & a > c){
