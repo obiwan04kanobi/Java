@@ -1,4 +1,4 @@
-package day2;
+package day3;
 public class while_loop {
     public static void main(String[] args) {
         int a = 4;

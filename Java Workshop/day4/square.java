@@ -1,4 +1,4 @@
-package day3;
+package day4;
 
 public class square {
     public static int num_square(int num){
