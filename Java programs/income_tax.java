@@ -9,13 +9,13 @@ public class income_tax {
         if (salary < 250000){
             System.out.println("No TAX to be paid");
         }
-        else if ( salary > 250000 & salary < 500000){
+        else if ( salary >= 250000 & salary < 500000){
             System.out.println("TAX to be paid: "+((salary-250000)*0.05));
         }
-        else if ( salary > 500000 & salary < 1000000){
+        else if ( salary >= 500000 & salary < 1000000){
             System.out.println("TAX to be paid: "+((salary-250000)*0.2));
         }
-        else if ( salary > 1000000){
+        else if ( salary >= 1000000){
             System.out.println("TAX to be paid: "+((salary-250000)*0.3));
         }
     }
