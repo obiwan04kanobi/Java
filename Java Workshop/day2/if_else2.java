@@ -1,3 +1,4 @@
+package day2;
 import java.util.Scanner;
 
 public class if_else2 {

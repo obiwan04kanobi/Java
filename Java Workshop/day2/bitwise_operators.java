@@ -1,3 +1,4 @@
+package day2;
 public class bitwise_operators {
     public static void main(String[] args) {
         

@@ -1,11 +1,13 @@
+package day1;
+
 import java.util.Scanner;
 
-public class for_loop {
+public class ascii_code_to_alphabets {
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter int: ");
         int n = sc.nextInt();
-        for (int i = 1;i <= n; i++){
-            System.out.println("Java");
-        }
+        System.out.println((char)n);
     }
 }

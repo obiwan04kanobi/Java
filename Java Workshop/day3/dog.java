@@ -1,3 +1,4 @@
+package day3;
 public class dog {
 
     String breed;
