@@ -74,16 +74,23 @@ public class rock_paper_scissors {
             if (human > computer){
                 System.out.println("Round "+(i+1)+" Human won\n");
             }
-            else{
+            else if(human < computer){
                 System.out.println("Round "+(i+1)+" Computer won\n");
-            }            
+            }
+            else if (human == computer){
+                System.out.println("Round "+(i+1)+" Tie\n");                
+            }
+            num_val *= 0;            
         }
         if (human > computer){
             System.out.println("Finnally: Human won");
         }
-        else{
+        else if (human < computer){
             System.out.println("Finnally: Computer won");
         }
+        else if (human == computer){
+            System.out.println("Finnally: Tie");                
+        }                
 
     }
 }
