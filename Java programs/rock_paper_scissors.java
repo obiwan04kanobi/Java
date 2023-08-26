@@ -88,7 +88,7 @@ public class rock_paper_scissors {
         else if (human < computer){
             System.out.println("Finnally: Computer won");
         }
-        else if (human == computer){
+        else{
             System.out.println("Finnally: Tie");                
         }                
 
