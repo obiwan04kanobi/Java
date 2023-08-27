@@ -8,11 +8,12 @@ public class string_methods_1 {
         String s1 = "Hello";
         String s2 = "Hello";
         String s5 = "HELLO";
+        String s6 = "        hello       ";
 
         String s3 = new String("Hello");
         String s4 = new String("Hello");
         char [] ch = s1.toCharArray(); // converting from String object to char datatype
-        int value = 30;
+        float value = 30.545f;
 
         System.out.println(s1==s2); //its checking its memory address not its value 
 
@@ -31,5 +32,6 @@ public class string_methods_1 {
 
         System.out.println(s5.toLowerCase()); // similarly for uppercase
 
+        System.out.println(s6.trim()); // trims whitespace before or after a string
     }
 }
