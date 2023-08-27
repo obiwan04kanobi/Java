@@ -7,11 +7,16 @@ public class two_dimensional_array {
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Enter the size of an array: ");
-        
+
+        System.out.println("Row: ");
         int row = sc.nextInt(); //3
+
+        System.out.println("Col: ");        
         int col = sc.nextInt(); //2
+                
         int arr[][] = new int[row][col];
 
+        System.out.println("Enter Elements: ");        
         for(int i =0;i<row;i++){
 
             for(int j =0;j<col;j++){
@@ -23,9 +28,10 @@ public class two_dimensional_array {
         for(int i =0;i<row;i++){
 
             for(int j =0;j<col;j++){
-                System.out.println(arr[i][j]+" ");
+                System.out.print(arr[i][j]);
+                System.out.print(" ");
             }
-            System.out.println();
+            System.out.println("");
         }
     }
 }
