@@ -31,14 +31,13 @@ public class practice_ch5{
             i++;
         }
         System.out.println("Sum of first "+n+" even numbers is "+ sum);
-    }
-}
+
 
 */
 
 
 /* 
-    //Ques 3.
+        //Ques 3.
 
         System.out.println("Enter N: ");
 
@@ -49,13 +48,11 @@ public class practice_ch5{
             System.out.println(n+" x "+i+" = "+ mul );
             mul = (i+1) * n;
         }
-    }
 
-
-}
 */
 
-    // Ques. 4
+/* 
+        // Ques. 4
 
         System.out.println("Enter N: ");
 
@@ -66,6 +63,32 @@ public class practice_ch5{
             System.out.println(n+" x "+i+" = "+ mul );
             mul = (i-1) * n;
         }
+
+*/
+
+/* 
+        //Ques 5.
+        System.out.println("Enter N:");
+        int n = sc.nextInt();
+
+        int fact = 1;
+
+        for (int i =1;i<=n;i++){
+            fact *= i;
+        }
+        System.out.println("Factorial of "+n+" is: "+fact);
+
+*/
+
+
+
+
+
+
+
+
+
+
     }    
 
 }
