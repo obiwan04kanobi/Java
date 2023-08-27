@@ -1,7 +1,7 @@
 package day5;
 import java.lang.String;
 
-// STRING IS IMMUTABLE, HENCE  
+// NOTE: STRING IS IMMUTABLE
 
 public class string_methods_1 {
     public static void main(String[] args) {
