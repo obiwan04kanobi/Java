@@ -37,7 +37,7 @@ public class practice_ch5{
 */
 
 
-/* 
+
     //Ques 3.
 
         System.out.println("Enter N: ");
@@ -53,19 +53,4 @@ public class practice_ch5{
 
 
 }
-*/
 
-    // Ques. 4
-
-        System.out.println("Enter N: ");
-
-        int n = sc.nextInt();
-        int mul = n;
-        for(int i = (n-1);i >= 0;i--){
-
-            System.out.println(n+" x "+i+" = "+ mul );
-            mul = (i-1) * n;
-        }
-    }    
-
-}
