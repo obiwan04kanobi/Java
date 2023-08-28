@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class temp {
+public class no_paramater_constructor_1 {
 
     String name;
 
     //Non-Parameter Constructor
-    temp(){
+    no_paramater_constructor_1(){
 
         System.out.println("Enter Name: ");
         Scanner sc = new Scanner(System.in);
@@ -15,7 +15,7 @@ public class temp {
 
     public static void main(String[] args) {
         
-        temp tmp = new temp();
+        no_paramater_constructor_1 tmp = new no_paramater_constructor_1();
 
         System.out.printf("Hello, %s",tmp.name);
 
