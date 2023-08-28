@@ -1,4 +1,4 @@
-package day5;
+
 import java.lang.String;
 
 // NOTE: STRING IS IMMUTABLE
