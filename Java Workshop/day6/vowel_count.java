@@ -8,15 +8,17 @@ public class vowel_count{
 
         String usr_input = sc.nextLine();
 
-        char [] ch = usr_input.toCharArray();
+        String user_input_lower = usr_input.toLowerCase();
 
+        char [] ch = user_input_lower.toCharArray();
+
+ 
         int vowel = 0;
         int consonant = 0;
 
-        for (int i=0;i<usr_input.length();i++){
+        for (int i=0;i<user_input_lower.length();i++){
 
-            if (ch[i] == 'a'|| ch[i] == 'A' || ch[i] == 'e' || ch[i] == 'E' || ch[i] == 'i' 
-            || ch[i] == 'I' || ch[i] == 'o' || ch[i] == 'O' || ch[i] == 'u' || ch[i] == 'U'){
+            if (ch[i] == 'a'|| ch[i] == 'e' || ch[i] == 'i' || ch[i] == 'o' || ch[i] == 'u'){
 
                 vowel++;
 
