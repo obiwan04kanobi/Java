@@ -37,7 +37,7 @@ class SubClass extends ParentClass{
 
 }
 
-public class inheritance_1{
+public class Single_level_inheritance_1{
 
     public static void main(String[] args) {
               
