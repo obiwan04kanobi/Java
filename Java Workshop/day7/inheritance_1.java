@@ -45,9 +45,8 @@ public class inheritance_1{
         SubClass p1 = new SubClass();
         p.input();
         System.out.printf("Sum of two numbers: %d",p.add());
-        p.getdata();
-        p1.sum(0);
-        System.out.printf("Sum of three numbers is : %d",p1.sum_1);
+        p1.getdata();
+        System.out.printf("Sum of three numbers is : %d",p1.sum());
 
     }
 }
