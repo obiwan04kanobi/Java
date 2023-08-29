@@ -4,7 +4,7 @@ class A{
 
     // a, b
     int a,b;
-    void input(){
+    void input_1(){
         Scanner sc = new Scanner(System.in);
         System.out.print("A: ");
         a = sc.nextInt();
@@ -36,7 +36,7 @@ class B extends A{
     //  a-b-c
     int sub(){
 
-        return a-b-c;
+        return (a-b-c);
 
     }
 
@@ -47,7 +47,7 @@ class C extends B{
 
     // get d
     int d;
-    void input(){
+    void input_2(){
         Scanner sc = new Scanner(System.in);
         System.out.print("D: ");
         d = sc.nextInt();
@@ -55,7 +55,8 @@ class C extends B{
 
     // d/c
     float divide(){
-        return d/c;
+        return (d/c);
+    
     }
 
 }
@@ -66,7 +67,7 @@ class D extends B{
 
     //get e
     int e;
-    void input(){
+    void input_3(){
         Scanner sc = new Scanner(System.in);
         System.out.print("D: ");
         e = sc.nextInt();
@@ -76,7 +77,7 @@ class D extends B{
     //e*a
     int mul(){
 
-        return e*a;
+        return (a*e*b);
 
     }
 }
@@ -84,5 +85,21 @@ class D extends B{
 public class hybrid_inheritance {
     public static void main(String[] args) {
         
+        C c = new C();
+        D d = new D();
+        
+        c.input_1();
+        System.out.println("Add: "+c.add());
+
+        c.getdata();
+        System.out.println("Sub: "+c.sub());
+
+        c.input_2();
+        System.out.printf("Div: %.2f",c.divide());
+        System.out.println();
+
+        d.input_3();
+        System.out.println("Mul: "+d.mul());
+
     }   
 }
