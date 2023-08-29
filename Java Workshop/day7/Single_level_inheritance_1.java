@@ -4,17 +4,18 @@ class ParentClass{
     void input(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter A: ");
-        int a = sc.nextInt();
+        a = sc.nextInt();
         System.out.println("Enter B: ");
-        int b = sc.nextInt();
+        b = sc.nextInt();
 
         add(a,b);
 
     }
 
-    int add(int a,int b){
+    int sum_of_two;
+    void add(int a,int b){
 
-        return a+b;
+        sum_of_two = (a+b);
 
     }
 }
@@ -26,7 +27,7 @@ class SubClass extends ParentClass{
         
         Scanner sc = new Scanner(System.in);            
         System.out.println("Enter C: ");
-        int c = sc.nextInt();
+        c = sc.nextInt();
     }
 
     int sum(){
@@ -41,11 +42,11 @@ public class Single_level_inheritance_1{
 
     public static void main(String[] args) {
               
-        ParentClass p = new ParentClass();
         SubClass p1 = new SubClass();
-        p.input();
-        System.out.printf("Sum of two numbers: %d",p.add());
+        p1.input();
         p1.getdata();
+
+        System.out.println("Sum of two numbers is : "+p1.sum_of_two);
         System.out.printf("Sum of three numbers is : %d",p1.sum());
 
     }
