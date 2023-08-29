@@ -13,10 +13,10 @@ class ParentClass{
     }
 
     int sum_of_two;
-    void add(int a,int b){
+    int add(int a,int b){
 
         sum_of_two = (a+b);
-
+        return sum_of_two;
     }
 }
 
