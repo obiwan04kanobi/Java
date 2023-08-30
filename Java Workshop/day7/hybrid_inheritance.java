@@ -69,7 +69,7 @@ class D extends B{
     int e;
     void input_3(){
         Scanner sc = new Scanner(System.in);
-        System.out.print("D: ");
+        System.out.print("E: ");
         e = sc.nextInt();
 
     }
@@ -89,16 +89,17 @@ public class hybrid_inheritance {
         D d = new D();
         
         c.input_1();
+        c.getdata();
+        c.input_2();
+        d.input_3();
+        
         System.out.println("Add: "+c.add());
 
-        c.getdata();
         System.out.println("Sub: "+c.sub());
 
-        c.input_2();
         System.out.printf("Div: %.2f",c.divide());
         System.out.println();
 
-        d.input_3();
         System.out.println("Mul: "+d.mul());
 
     }   
