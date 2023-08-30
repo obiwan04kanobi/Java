@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 class A{
@@ -71,7 +72,7 @@ class D extends B{
         Scanner sc = new Scanner(System.in);
         System.out.print("E: ");
         e = sc.nextInt();
-
+       sc.close();
     }
 
     //e*a
