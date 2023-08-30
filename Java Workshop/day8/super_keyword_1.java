@@ -17,15 +17,9 @@ class child extends Parent{
 
 }
 
-
-
-
-
-
-
-
-
-
 public class super_keyword_1 {
-    
+    public static void main(String[] args) {
+        child c = new child();
+        c.eat();
+    }
 }
