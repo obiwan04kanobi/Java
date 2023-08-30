@@ -78,7 +78,6 @@ class D extends B{
     int mul(){
 
         return (a*e*b);
-
     }
 }
 
@@ -92,7 +91,7 @@ public class hybrid_inheritance {
         c.getdata();
         c.input_2();
         d.input_3();
-        
+
         System.out.println("Add: "+c.add());
 
         System.out.println("Sub: "+c.sub());
