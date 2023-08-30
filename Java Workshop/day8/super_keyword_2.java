@@ -2,7 +2,7 @@ package day8;
 
 class Parent{
 
-    void eat(){
+    void eat_1(){
         System.out.println("Team pay attention !!!");
     }
 }
@@ -21,7 +21,7 @@ public class super_keyword_2{
     
     public static void main(String[] args) {
             Child c = new Child();
-            c.eat();
+            c.eat_1();
     }
 
 }
