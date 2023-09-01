@@ -22,7 +22,7 @@ public class prime_num_1 {
         
         new_1 n = new new_1();
 
-        System.out.print("Enter N: ");
+        System.out.print("Enter range for which you want the prime numbers: ");
         Scanner sc = new Scanner(System.in);
 
         int num = sc.nextInt();
@@ -32,7 +32,7 @@ public class prime_num_1 {
 
             if (n.prime(i)){
 
-                System.out.print(i+" ");
+                System.out.println(i);
 
             }
             else{
