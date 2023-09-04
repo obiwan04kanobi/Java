@@ -15,16 +15,17 @@ class cricketer{
 
 public class garbage_collector {
     public static void main(String[] args) {
-        cricketer c = new cricketer();
-        c = null; // unreferenced object is created
+        cricketer c = new cricketer(); //obj created
+        c = null; // unreferenced object  
 
-        cricketer c1 = new cricketer();
-        cricketer c2 = new cricketer();
+        cricketer c1 = new cricketer(); // obj created
+        cricketer c2 = new cricketer(); // obj created
 
-        c1 = c2;
+        c1 = c2; // unreferenced object
 
-        new cricketer();
+        new cricketer(); // obj created //anonymous object
 
         System.gc(); // garbage collector method
+        //garbage collector destroys unreferenced objects
     }
 }
