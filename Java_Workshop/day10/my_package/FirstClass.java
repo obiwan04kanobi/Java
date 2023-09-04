@@ -1,4 +1,4 @@
-package Java.Java_Workshop.packages.my_package;
+package day10.my_package;
 
 public class FirstClass {
     
