@@ -21,7 +21,5 @@ public class cmd_arguments_4 {
         }
 
         System.out.println("Greatest number is: "+max);
-
-
     }
 }
