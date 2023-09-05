@@ -4,6 +4,7 @@ package day11;
 // INTERFACES HELP US TO ACHIEVE ABSTRACTION IN JAVA
 
 // AN ABSTRACT CLASS
+@FunctionalInterface //once @FunctionalInterface is written over an abstract class it means that it will be now a functional interface and can only have 1 single method defined inside it, no more than that.
 interface Pyramid{
 
     public void show();
@@ -11,7 +12,7 @@ interface Pyramid{
 }
 
 // AN ABSTRACT CLASS
-interface Trainer{
+interface Trainer{  //Normal or multiple interface
 
     public void show();
 }
