@@ -18,7 +18,6 @@ interface Even{
 
 }
 
-
 class mayank implements Odd,Even{
 
     public void odd(int num){
