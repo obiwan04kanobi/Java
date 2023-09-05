@@ -1,6 +1,6 @@
 package day12;
 
-public class exceptions {
+public class exceptions_1 {
     public static void main(String[] args) {
 
         try{
