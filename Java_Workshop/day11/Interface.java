@@ -12,9 +12,10 @@ interface Pyramid{
 }
 
 // AN ABSTRACT CLASS
-interface Trainer{  //Normal or multiple interface
+interface Trainer{  //Normal or multiple interface. It can have multiple methods unlike functional interface
 
     public void show();
+    public void show0();
 }
 
 //METHOD mayank INHERITS ABSTRACT CLASSES WHICH MEANS IT SHOULD HAVE METHODS DEFINED INSIDE ABSTRACT CLASSES
@@ -23,6 +24,11 @@ class mayank implements Pyramid,Trainer{
     public void show(){
         System.out.println("It's working fine");
     }    
+
+    public void show0(){
+        System.out.println("It's also working fine");
+    }
+
     public void show1(){
         System.out.println("We can also put our own child class method");
     }
