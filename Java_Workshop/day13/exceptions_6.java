@@ -2,7 +2,7 @@ package day13;
 
 import java.util.Scanner;
 
-public class exception_6 {
+public class exceptions_6 {
 
     public static void exception(int num){
 
