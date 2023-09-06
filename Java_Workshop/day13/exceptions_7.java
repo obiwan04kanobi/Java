@@ -5,9 +5,12 @@ public class exceptions_7 {
         
         try{
             for(int i = 1;i<= 10;i++){
-                System.out.println(i);
-                if (i == 4){
+
+                if (i == 5){
                     throw new ArithmeticException("5 not Allowed !!");
+                }
+                else{
+                    System.out.printf("The number is: %d\n",i);
                 }
             }
         }
