@@ -3,9 +3,9 @@ package day13;
 public class exceptions_7 {
     public static void main(String[] args) {
         
-        try{
-            for(int i = 1;i<= 10;i++){
 
+        for(int i = 1;i<= 10;i++){
+            try{
                 if (i == 5){
                     throw new ArithmeticException("5 not Allowed !!");
                 }
@@ -13,9 +13,10 @@ public class exceptions_7 {
                     System.out.printf("The number is: %d\n",i);
                 }
             }
+            catch(Exception e){
+                System.out.println(e);
+            }
         }
-        catch(Exception e){
-            System.out.println(e);
-        }
+
     }   
 }
