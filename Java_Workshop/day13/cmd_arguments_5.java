@@ -11,7 +11,7 @@ public class cmd_arguments_5 {
             }
         }
         catch(Exception e){
-            System.out.println(e.getMessage());
+            System.out.println(e.getMessage()); //to only print the Exception message
         }
 
         for (int i = 0; i < args.length; i++) {
