@@ -14,7 +14,7 @@ class A{
 
 class B extends A{
 
-    @Override
+    @Override   //should use the @Override annotation when overrinding an method, helps to debug the code later
     public void meth2(){
         System.out.println("I am method 2 of class B");
     }
