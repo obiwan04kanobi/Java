@@ -1,5 +1,5 @@
 
-//abstract class
+//abstract class. Object cannot be created of an abstract class but of it's derived classes
 abstract class Parent{
 
     //abstract method
