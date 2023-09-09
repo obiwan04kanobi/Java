@@ -1,5 +1,6 @@
 
 interface Bicycle{
+    int a = 45;
     void applyBrake(int Decrement);
     void speedUp(int incerement);
 }
@@ -25,5 +26,8 @@ public class interface_1 {
         Hero_cycle cy = new Hero_cycle();
         cy.applyBrake(4);
         cy.speedUp(2);
+
+        //you can create properties in interfaces. You cannot modify the properties in interfaces because they are final
+        System.out.println(cy.a);
     }
 }
