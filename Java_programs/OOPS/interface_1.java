@@ -5,7 +5,13 @@ interface Bicycle{
     void speedUp(int incerement);
 }
 
-class Hero_cycle implements Bicycle{
+interface blowHorn{
+    void blow_vehicle_Horn();
+}
+
+class Hero_cycle implements Bicycle,blowHorn{
+
+    //child class which is inheriting interfaces need to have it's methods set to public
 
     public int speed = 7;
     
@@ -19,6 +25,10 @@ class Hero_cycle implements Bicycle{
         System.out.println("Bicycle Speed Incereased to: "+speed);
     }
 
+    public void blow_vehicle_Horn(){
+        System.out.println("honk honk ...");
+    }
+
 }
 
 public class interface_1 {
@@ -29,5 +39,6 @@ public class interface_1 {
 
         //you can create properties in interfaces. You cannot modify the properties in interfaces because they are final
         System.out.println(cy.a);
+        cy.blow_vehicle_Horn();
     }
 }
