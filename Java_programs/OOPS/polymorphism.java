@@ -1,3 +1,5 @@
+//THIS IS AN EXAMPLE OF POLYMORPHISM
+
 
 interface Vehicle{
     void wheels();
