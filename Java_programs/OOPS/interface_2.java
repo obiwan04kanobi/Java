@@ -71,6 +71,8 @@ public class interface_2 {
             sm.record4Kvideo();
             
             String[] ar = sm.getNetworks();
+
+            //for item in array "ar" print item
             for (String item: ar) {
                 System.out.println(item);
             
