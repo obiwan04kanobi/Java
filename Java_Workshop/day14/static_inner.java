@@ -9,7 +9,7 @@ public class static_inner {
     static class Inner_5{
 
         //non-static method
-        void mag(){
+        void msg(){
             System.out.println("Data is "+data);
         }
     }
@@ -18,6 +18,7 @@ public class static_inner {
     public static void main(String[] args) {
 
         static_inner.Inner_5 obj = new static_inner.Inner_5();
-        obj.mag();
+        obj.msg();
+        
     }
 }
