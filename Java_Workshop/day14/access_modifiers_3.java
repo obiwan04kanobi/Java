@@ -3,18 +3,18 @@ package day14;
 import java.util.Scanner;
 
 /*
-Q.  write a java code to check if number is even or odd number using inner classes but print even numbers 
-    using outer class methods and print odd numbers using inner class methods
+*  write a java code to check if number is even or odd number using inner classes but print even numbers 
+*  using outer class methods and print odd numbers using inner class methods
 */
 
-class Outer{
+class Outer_2{
     
     void even(){
 
         System.out.println("Even number");
     }
 
-    class Inner{
+    class Inner_2{
 
         void odd(){
 
@@ -30,8 +30,8 @@ public class access_modifiers_3 {
         System.out.print("Num: ");
         int num = sc.nextInt();
 
-        Outer ou = new Outer();
-        Outer.Inner in = ou.new Inner();
+        Outer_2 ou = new Outer_2();
+        Outer_2.Inner_2 in = ou.new Inner_2();
 
         if(num % 2 == 0){
             ou.even();
