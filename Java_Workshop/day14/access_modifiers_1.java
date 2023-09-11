@@ -16,7 +16,7 @@ class access{
 
 }
 
-public class access_modifiers{
+public class access_modifiers_1{
     public static void main(String[] args) {
         access ac = new access();
         ac.meth(); //works
