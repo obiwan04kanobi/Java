@@ -5,7 +5,7 @@ public class static_inner {
     //static property
     static int data = 30;
 
-    //static class
+    //static inner class
     static class Inner_5{
 
         //non-static method

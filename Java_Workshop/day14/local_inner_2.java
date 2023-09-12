@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 class Outer_3{
 
-    void display_3(){
+    void display_3(array[],int size){
         class Inner_3{
             void show_3(array[],int size){
                 int sum = 0;
@@ -20,11 +20,10 @@ class Outer_3{
             }
         }
         Inner_3 obj = new Inner_3();
-        obj.show_3();        
+        obj.show_3(array[],int size);        
     }
 
 }
-
 
 
 public class local_inner_2 {
@@ -41,6 +40,6 @@ public class local_inner_2 {
         }
 
         Outer_3 o = new Outer_3();
-        o.display_3();
+        o.display_3(array[],size);
     }
 }
