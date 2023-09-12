@@ -3,13 +3,13 @@ package day14;
  * write a java code to print sum of even numbers using local inner class
 */
 
-import java.util.Scanner;
+import java.util.*;
 
 class Outer_3{
 
-    void display_3(array[],int size){
+    void display_3(int array[],int size){
         class Inner_3{
-            void show_3(array[],int size){
+            void show_3(int array[],int size){
                 int sum = 0;
                 for (int i = 0;i<=size;i++){
 
@@ -20,7 +20,7 @@ class Outer_3{
             }
         }
         Inner_3 obj = new Inner_3();
-        obj.show_3(array[],int size);        
+        obj.show_3(array,size);        
     }
 
 }
@@ -40,6 +40,6 @@ public class local_inner_2 {
         }
 
         Outer_3 o = new Outer_3();
-        o.display_3(array[],size);
+        o.display_3(array,size);
     }
 }
