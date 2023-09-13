@@ -8,7 +8,7 @@ public class file_out_2 {
 
         try
         {
-            FileOutputStream f = new FileOutputStream("Batch 3.txt");
+            FileOutputStream f = new FileOutputStream("D:\\CSDS213\\Java\\Java_Workshop\\Batch 3.txt");
             Scanner sc = new Scanner(System.in);
             
             System.out.println("Enter a String: ");
