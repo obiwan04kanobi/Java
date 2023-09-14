@@ -5,7 +5,7 @@ import java.io.FileInputStream;
 public class file_in_2 {
     public static void main(String[] args) {
         try{
-            FileInputStream in = new FileInputStream("D:\\CSDS213\\Java\\Java_Workshop\\file.txt");
+            FileInputStream in = new FileInputStream("D:\\CSDS213\\Java\\Java_Workshop\\day16\\file.txt");
             
             int i = 0;
             

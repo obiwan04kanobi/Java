@@ -7,7 +7,7 @@ public class file_out_1{
 
         try
         {
-            FileOutputStream f = new FileOutputStream("D:\\CSDS213\\Java\\Java_Workshop\\Batch 2.txt");
+            FileOutputStream f = new FileOutputStream("D:\\CSDS213\\Java\\Java_Workshop\\day16\\Batch 2.txt");
             String a = "\nWelcome to Java File Stream";
             byte b[] = a.getBytes(); 
 
