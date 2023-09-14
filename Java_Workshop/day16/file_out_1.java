@@ -2,6 +2,8 @@ package day16;
 
 import java.io.FileOutputStream;
 
+// FileOutputStream inputs or outputs data in raw bytes
+
 public class file_out_1{
     public static void main(String[] args) {
 
