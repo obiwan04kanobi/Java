@@ -7,6 +7,7 @@ import java.io.IOException;
 public class file_buffer_2 {
     public static void main(String[] args) throws IOException{
         try{        
+            //file input stream is an abstract clas for buffered input stream.
             FileInputStream fin = new FileInputStream("D:\\CSDS213\\Java\\Java_Workshop\\day16\\buffer.txt");
             BufferedInputStream bin = new BufferedInputStream(fin);
             int i = 0;
