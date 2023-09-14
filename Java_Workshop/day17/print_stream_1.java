@@ -6,6 +6,8 @@ import java.io.PrintStream;
 
 public class print_stream_1 {
     public static void main(String[] args) throws IOException {
+
+        // FileOutputStream acts as an abstract class for PrintStream 
         FileOutputStream fout = new FileOutputStream("D:\\CSDS213\\Java\\Java_Workshop\\day17\\print.txt");     
         PrintStream ps = new PrintStream(fout);
 
