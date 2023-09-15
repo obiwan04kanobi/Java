@@ -32,5 +32,7 @@ public class two_dimensional_array {
             }
             System.out.println("");
         }
+
+        sc.close();
     }
 }

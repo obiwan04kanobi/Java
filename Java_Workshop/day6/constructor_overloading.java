@@ -42,5 +42,7 @@ public class constructor_overloading {
         System.out.printf("Name: %s, Age: %d, Roll No: %d\n",p1.name,p1.age,p1.r_no);
         System.out.printf("Name: %s, Age: %d, Roll No: %d",p.name,p.age,p.r_no);
 
+        sc.close();
+
     }
 }

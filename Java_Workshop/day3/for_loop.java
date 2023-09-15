@@ -8,5 +8,6 @@ public class for_loop {
         for (int i = 1;i <= n; i++){
             System.out.println("Java");
         }
+        sc.close();
     }
 }

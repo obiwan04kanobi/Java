@@ -14,5 +14,7 @@ public class reverse_array {
             System.out.println("Element in postion "+i);
             System.out.println(arr[i]);
         }
+
+        sc.close();
     }
 }

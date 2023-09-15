@@ -32,5 +32,7 @@ public class strong_num_1 {
         else{
             System.out.println("No");
         }
+
+        sc.close();
     }
 }

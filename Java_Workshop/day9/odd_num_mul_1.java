@@ -32,5 +32,7 @@ public class odd_num_mul_1 {
 
         // Print the product of odd numbers
         System.out.println("The product of odd numbers in the array is: " + product);
+
+        sc.close();
     }
 }

@@ -27,5 +27,6 @@ public class exceptions_6 {
         int num = sc.nextInt();
         exception(num);
 
+        sc.close();
     }
 }

@@ -24,6 +24,8 @@ public class operators {
         System.out.println(sub);
         System.out.println("Mul: ");
         System.out.println(mul);
+
+        sc.close();
     
     }   
 }

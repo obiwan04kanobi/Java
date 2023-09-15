@@ -13,5 +13,7 @@ public class digits_reverse {
             n = n / 10;    
         }
         System.out.println(rev);
+
+        sc.close();
     }
 }

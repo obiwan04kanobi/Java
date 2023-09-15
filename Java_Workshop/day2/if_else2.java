@@ -26,5 +26,7 @@ public class if_else2 {
 		{
 		    System.out.println("Not Weird");
 		}
+
+		sc.close();
     }
 }

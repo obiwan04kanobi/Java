@@ -9,6 +9,8 @@ public class print {
         System.out.println("Enter Name:");
         name = sc.nextLine();
         System.out.println("hello, "+name);
+        
+        sc.close();
     }
     public static void main(String[] args) {
         print p = new print();

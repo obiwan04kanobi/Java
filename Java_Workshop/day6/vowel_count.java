@@ -35,6 +35,6 @@ public class vowel_count{
         }
         System.out.printf("No. of vowels is: %d and consonants is: %d",vowel,consonant);
 
-
+        sc.close();
     }
 }

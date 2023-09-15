@@ -30,6 +30,7 @@ public class max_element {
 
         System.out.println("Greatest number is: "+max);
 
+        sc.close();
 
     }
 

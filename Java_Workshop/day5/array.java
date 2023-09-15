@@ -22,6 +22,8 @@ public class array {
 
             System.out.println("Elements in "+ i +": "+arr[i]);
         }
+
+        sc.close();
     }
 
 

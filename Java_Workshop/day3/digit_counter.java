@@ -11,5 +11,7 @@ public class digit_counter {
             n= n/10;
         }while(n!=0);
         System.out.println(count);
+
+        sc.close();
     }
 }

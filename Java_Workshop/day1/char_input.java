@@ -9,6 +9,7 @@ public class char_input {
         char name = sc.next().charAt(0);
         System.out.print("hello, ");
         System.out.println(name);
+        sc.close();
 
     }
 }

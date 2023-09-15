@@ -11,6 +11,7 @@ class Perform{
         length = sc.nextInt();
         System.out.print("Breadth: ");        
         breadth = sc.nextInt();
+        sc.close();
 
     }
 
@@ -20,6 +21,7 @@ class Perform{
         Scanner sc = new Scanner(System.in);
         System.out.print("Length of each side: ");
         side_length = sc.nextInt();
+        sc.close();
     }
 
 

@@ -25,5 +25,7 @@ public class greatest_number {
         else{
             System.out.println(c + " is the greatest");
         }
+
+        sc.close();
     }
 }

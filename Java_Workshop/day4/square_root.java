@@ -1,5 +1,5 @@
 package day4;
-import  java.lang.*;
+//import  java.lang.*;
 
 public class square_root {
     public static void main(String[] args) {

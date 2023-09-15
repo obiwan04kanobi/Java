@@ -9,7 +9,9 @@ public class no_paramater_constructor_1 {
 
         System.out.println("Enter Name: ");
         Scanner sc = new Scanner(System.in);
-        name = sc.nextLine();         
+        name = sc.nextLine();
+        
+        sc.close();
 
     }
 

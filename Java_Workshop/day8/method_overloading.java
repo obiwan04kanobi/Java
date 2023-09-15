@@ -43,5 +43,6 @@ public class method_overloading {
         System.out.println("Addition of two numbers: "+child.add(a,b));
         System.out.printf("Addition of three numbers: %d",child.add(a, b, c));
 
+        sc.close();
     }
 }

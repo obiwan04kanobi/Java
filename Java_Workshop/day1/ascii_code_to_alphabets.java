@@ -9,5 +9,6 @@ public class ascii_code_to_alphabets {
         System.out.println("Enter int: ");
         int n = sc.nextInt();
         System.out.println((char)n);
+        sc.close();
     }
 }

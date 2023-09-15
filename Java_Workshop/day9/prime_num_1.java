@@ -41,6 +41,6 @@ public class prime_num_1 {
 
         }
 
-
+        sc.close();
     }
 }

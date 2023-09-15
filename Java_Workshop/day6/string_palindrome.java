@@ -36,6 +36,6 @@ public class string_palindrome {
             System.out.println("Not a Palindrome");
         }
 
-
+        sc.close();
     }
 }

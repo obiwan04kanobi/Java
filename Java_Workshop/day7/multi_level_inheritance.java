@@ -68,7 +68,5 @@ public class multi_level_inheritance {
         p.input_3();
         System.out.printf("(%d+%d+%d)*%d = %d",p.a,p.b,p.c,p.d,p.mul);
 
-
-
     }
 }

@@ -31,7 +31,7 @@ public class parameterised_constructor_1 {
 
         System.out.printf("Name: %s, Age: %d, Roll No: %d",p.name,p.age,p.roll_no);
 
-
+        sc.close();
     }
 
 }
