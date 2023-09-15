@@ -38,7 +38,7 @@ public class interface_1 {
         cy.speedUp(2);
 
         //you can create properties in interfaces. You cannot modify the properties in interfaces because they are final
-        System.out.println(cy.a);
+        //System.out.println(cy.a);
         cy.blow_vehicle_Horn();
     }
 }
