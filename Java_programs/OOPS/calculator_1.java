@@ -22,5 +22,7 @@ public class calculator_1 {
 
         calculator_1 s = new calculator_1(); // CREATING AN OBJECT OF CLASS 
         s.sum(a,b); // CALLING METHOD SUM USING THE CREATED OBJECT
+
+        sc.close();
     }
 }

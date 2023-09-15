@@ -63,5 +63,7 @@ public class constructor_2 {
         Rectangle r2 = new Rectangle(6,7);
         System.out.println("Rectangle length: "+r.getter_length()+ ", breadth: "+r.getter_breadth());
         System.out.printf("Rectangle length: %d, breadth: %d",r2.getter_length(),r2.getter_breadth());
+
+        sc.close();
     }
 }

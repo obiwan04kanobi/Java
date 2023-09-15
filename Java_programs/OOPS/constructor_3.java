@@ -42,6 +42,7 @@ public class constructor_3 {
     public static void main(String[] args) {
         //Base b = new Base();
         //Derived d = new Derived(14,5);
-        ChildOfDerived cd = new ChildOfDerived(13,54,35);
+        //ChildOfDerived cd = new ChildOfDerived(13,54,35);
+
     }
 }
