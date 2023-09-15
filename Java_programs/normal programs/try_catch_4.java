@@ -20,7 +20,7 @@ public class try_catch_4 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number: ");
         a = sc.nextInt();
-
+        sc.close();
         if(a<99){
             try
             {
