@@ -79,16 +79,7 @@ public class practice_ch5{
         System.out.println("Factorial of "+n+" is: "+fact);
 
 */
-
-
-
-
-
-
-
-
-
-
+        sc.close();
     }    
 
 }

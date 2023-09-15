@@ -5,7 +5,6 @@ public class string_methods {
 
         // you can create a String object by both of these methods
         String name = "Mayank";
-        String name_1 = new String("Mayank");
 
         int str_len = name.length();
         String str_upper = name.toUpperCase();

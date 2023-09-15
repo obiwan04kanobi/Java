@@ -11,5 +11,6 @@ public class greet {
         System.out.println("Hello "+ name+" !!");
         System.out.println("Have a nice Day !!");
 
+        sc.close();
     }    
 }

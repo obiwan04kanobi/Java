@@ -92,5 +92,6 @@ public class rock_paper_scissors {
             System.out.println("Finnally: Tie");                
         }                
 
+        sc.close();
     }
 }

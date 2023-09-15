@@ -7,5 +7,6 @@ public class valid {
         System.out.println("Give an integer");
         boolean b1 = sc.hasNextInt();   // this line of code will check if the given value is an integer or not and print "true" or "false" accordingly.
         System.out.println(b1);
+        sc.close();
     }
 }

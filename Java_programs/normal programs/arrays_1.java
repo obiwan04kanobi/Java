@@ -25,5 +25,7 @@ public class arrays_1 {
 
         float avg = sum/5;
         System.out.println("Average of "+n+" Subjects is: "+avg+"%");
+
+        sc.close();
     }
 }

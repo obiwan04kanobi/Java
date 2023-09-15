@@ -21,5 +21,6 @@ public class practice_ch4 {
         else{
             System.out.println("FAIL with "+ total+"%");
         }
+        sc.close();
     }
 }

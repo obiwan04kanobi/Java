@@ -20,5 +20,7 @@ public class marks_Cal {
         float perct = ((sub1 + sub2 + sub3 + sub4 + sub5)/(5*maxmarks))*100;
         System.out.println("Percentage is:");
         System.out.println(perct);
+
+        sc.close();
     }
 }

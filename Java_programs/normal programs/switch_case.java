@@ -42,5 +42,6 @@ public class switch_case {
             System.out.println("Enjoy Your life!");
         }
         System.out.println("Thanks for using my Java Code!");
+        sc.close();
     }
 }

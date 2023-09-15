@@ -18,6 +18,6 @@ public class input {
         System.out.println(sum);
 
 
-        // Ignore the "Resource leak" ERROR!!
+        sc.close();
     }
 }

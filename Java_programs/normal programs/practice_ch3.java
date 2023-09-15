@@ -1,6 +1,6 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
-import javax.print.DocFlavor.STRING;
+//import javax.print.DocFlavor.STRING;
 
 public class practice_ch3 {
     public static void main(String[] args) {

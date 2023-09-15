@@ -29,5 +29,7 @@ public class income_tax {
             tax = tax + (salary - 1000000)*(0.30f);
             System.out.println("TAX to be paid: "+tax);
         }
+
+        sc.close();
     }
 }

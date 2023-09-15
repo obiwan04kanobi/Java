@@ -11,5 +11,6 @@ public class distance {
         
         System.out.println("Distance in Miles:");
         System.out.println(convert);
+        sc.close();
     }
 }
