@@ -32,5 +32,7 @@ public class lambda_3 {
         int y = sc.nextInt();
 
         System.out.println(max.maximum(x, y));
+
+        sc.close();
     }
 }
