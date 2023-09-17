@@ -14,6 +14,7 @@ class Parent{
 
 class child extends Parent{
 
+    //overloading method add() of parent class by adding more one more argument C
     int add(int a, int b, int c){
 
         return (a+b+c);

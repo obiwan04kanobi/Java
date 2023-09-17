@@ -1,14 +1,15 @@
 package day8;
 
-class Parent{
+class Parent_2{
 
     void eat(){
         System.out.println("Team pay attention");
     }
 }
 
-class child extends Parent{
+class child_2 extends Parent_2{
 
+    @Override
     void eat(){
 
         super.eat();
@@ -19,7 +20,7 @@ class child extends Parent{
 
 public class super_keyword_1 {
     public static void main(String[] args) {
-        child c = new child();
+        child_2 c = new child_2();
         c.eat();
     }
 }

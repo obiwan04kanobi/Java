@@ -3,6 +3,7 @@ package day8;
 // PRIVATE ACCESS SPECIFIERS
 class data_1{
 
+    //gets or returns the names
     private String name;
     public String get_Name(){
 
@@ -10,6 +11,7 @@ class data_1{
 
     }
 
+    // Sets the name 
     public void setName(String name){
 
         this.name = name;

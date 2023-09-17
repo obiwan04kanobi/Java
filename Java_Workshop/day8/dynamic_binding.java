@@ -1,28 +1,25 @@
 package day8;
 
-public class dynamic_binding {
-    
-    class Animal{
+class Animal{
 
-        void eat_2(){
-            System.out.println("Animal is eating...");
+    void eat_2(){
+        System.out.println("Animal is eating...");
 
-        }
     }
-        class dog extends Animal{
+}
 
-            void eat(){
+class dog extends Animal{
 
-                System.out.println("Dog is eating...");
-            }
+    void eat(){
 
-            public static void main(String[] args) {
-                
-            Animal a = new dog(); 
-            a.eat_2();
-
-        }
-
+        System.out.println("Dog is eating...");
+    }
+}
+public class dynamic_binding {
+    public static void main(String[] args) {
+        
+        Animal a = new dog(); 
+        a.eat_2();
     }
 
 }
