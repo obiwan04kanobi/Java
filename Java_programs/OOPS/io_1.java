@@ -27,6 +27,9 @@ public class io_1 {
         if(mFile2.delete()){
             System.out.println("I have deleted: "+mFile2.getName());
         }
+        else{
+            System.out.println("Some problem occured while deleting the file");
+        }
  */
     }
 }
