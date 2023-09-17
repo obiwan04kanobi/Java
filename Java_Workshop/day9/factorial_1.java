@@ -10,6 +10,7 @@ class fact{
         System.out.println("Enter N:");
         Scanner sc = new Scanner(System.in);
         num = sc.nextInt();
+        sc.close();
         return num;
     }
 

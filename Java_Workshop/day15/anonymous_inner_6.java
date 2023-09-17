@@ -39,6 +39,7 @@ public class anonymous_inner_6 {
             }
         };
         ano.anonymous(n);
+        sc.close();
 
     }
 }

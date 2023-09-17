@@ -31,5 +31,6 @@ public class anonymous_inner_5 {
             }
         };
         ch.checking(n);
+        sc.close();
     }
 }

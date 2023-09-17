@@ -20,5 +20,6 @@ public class anonymous_inner_4 {
             }
         };
         sq.square_num(num);
+        sc.close();
     }
 }
