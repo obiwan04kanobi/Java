@@ -7,8 +7,8 @@ public class digit_counter {
         int n = sc.nextInt();
         int count = 0;
         do{
-            ++count;
-            n= n/10;
+            ++count; //128
+            n= n/10; //128 -> 12 -> 1 -> 0
         }while(n!=0);
         System.out.println(count);
 
