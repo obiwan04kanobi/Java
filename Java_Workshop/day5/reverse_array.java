@@ -6,11 +6,16 @@ public class reverse_array {
         System.out.println("Enter size of the array");
         int size = sc.nextInt();
         int arr[] = new int[size];
-        for(int i = (size-1); i>=0; i--){
+
+        for(int i = 0;i<size;i++){
             System.out.println("Enter Element in position "+i);
             arr[i] = sc.nextInt();
+
         }
-        for(int i = 0;i<size;i++){
+
+        System.out.println("-------------------------");
+
+        for(int i = (size-1); i>=0; i--){
             System.out.println("Element in postion "+i);
             System.out.println(arr[i]);
         }

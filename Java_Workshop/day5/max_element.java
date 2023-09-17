@@ -22,6 +22,7 @@ public class max_element {
             arr[i] = sc.nextInt();
         }
 
+        //algo for max element in array
         for(int i=0;i<size;i++){
             if(arr[i]>max){
                 max = arr[i];
