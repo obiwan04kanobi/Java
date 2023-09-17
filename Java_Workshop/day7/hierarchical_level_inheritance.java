@@ -11,7 +11,7 @@ class Perform{
         length = sc.nextInt();
         System.out.print("Breadth: ");        
         breadth = sc.nextInt();
-        sc.close();
+
 
     }
 
@@ -21,13 +21,13 @@ class Perform{
         Scanner sc = new Scanner(System.in);
         System.out.print("Length of each side: ");
         side_length = sc.nextInt();
-        sc.close();
+
     }
 
 
 }
 
-class Rectangle extends Perform{
+class Rectangle_2 extends Perform{
 
     void input(){
         input_rectangle();
@@ -76,7 +76,7 @@ class Square extends Perform{
 public class hierarchical_level_inheritance {
     public static void main(String[] args) {
         
-        Rectangle r = new Rectangle();
+        Rectangle_2 r = new Rectangle_2();
         Square s = new Square();
 
         r.input();
