@@ -4,9 +4,9 @@ public class bitwise_logical_operators {
         boolean x = true;
         boolean y = false;
 
-        System.out.println(x&&y);
-        System.out.println(x||y);
-        System.out.println(!(x&&y));
-        System.out.println(x^y);
+        System.out.println(x&&y);   //false
+        System.out.println(x||y);   //true
+        System.out.println(!(x&&y)); //true
+        System.out.println(x^y);    //true
     }
 }
