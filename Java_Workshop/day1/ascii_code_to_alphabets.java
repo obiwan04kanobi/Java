@@ -8,7 +8,7 @@ public class ascii_code_to_alphabets {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter int: ");
         int n = sc.nextInt();
-        System.out.println((char)n);
+        System.out.println((char)n); //typecasting from integer to character
         sc.close();
     }
 }
