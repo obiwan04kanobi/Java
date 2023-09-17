@@ -6,7 +6,7 @@ public class constructor_overloading {
     int r_no;
     int age;
 
-
+    //non-parameterized constructor
     constructor_overloading(){
 
         name = "Java";
@@ -14,7 +14,7 @@ public class constructor_overloading {
         age = 25;
     }
 
-
+    //parameterized constructor
     constructor_overloading(String name, int r,int age){
 
         this.name = name;

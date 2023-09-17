@@ -11,7 +11,6 @@ public class vowel_count{
         String user_input_lower = usr_input.toLowerCase();
 
         char [] ch = user_input_lower.toCharArray();
-
  
         int vowel = 0;
         int consonant = 0;
@@ -21,7 +20,6 @@ public class vowel_count{
             if (ch[i] == 'a'|| ch[i] == 'e' || ch[i] == 'i' || ch[i] == 'o' || ch[i] == 'u'){
 
                 vowel++;
-
             }
             
             else if (ch[i] == ' '){

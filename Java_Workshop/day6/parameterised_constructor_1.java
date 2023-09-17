@@ -6,7 +6,7 @@ public class parameterised_constructor_1 {
     int age;
     int roll_no;
 
-    // Parameterised Constructor
+    // Parameterized Constructor
     parameterised_constructor_1(String name,int age,int roll){
 
         this.name = name; //if the reference variable is same as the 

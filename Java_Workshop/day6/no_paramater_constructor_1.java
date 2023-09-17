@@ -4,7 +4,7 @@ public class no_paramater_constructor_1 {
 
     String name;
 
-    //Non-Parameter Constructor
+    //Non-Parameterized Constructor
     no_paramater_constructor_1(){
 
         System.out.println("Enter Name: ");
