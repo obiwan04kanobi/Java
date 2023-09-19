@@ -1,0 +1,34 @@
+
+    SUDO CODE FOR Producer Consumer Problem in Java
+    OF HOW TO USE WAIT AND NOTIFY BETWEEN TWO THREADS
+    CONSUMER AND PRODUCER
+ 
+
+
+class item{
+    int i;
+    boolean produce = false;
+    public void synchronized produce(int x){
+        if(produce){
+            try {
+                wait();
+            } catch (Exception e) {
+                // TODO: handle exception
+            }
+        }
+        i=x;
+        produce = true;
+        notify();
+    }
+}
+consume(){
+    if(produce){
+        try {
+            wait();
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
+        produce =false;
+        notify();
+    }
+}
