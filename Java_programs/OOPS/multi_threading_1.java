@@ -28,7 +28,7 @@ public class multi_threading_1{
         MyThread_1 t1 = new MyThread_1();
         MyThread_2 t2 = new MyThread_2();
         
-        t1.start();
+        t1.start(); // start() is a method of Thread class. It calls run() method. 
         t2.start();
     }
 }
