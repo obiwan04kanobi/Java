@@ -1,11 +1,20 @@
 
+/*
+ * join() method is used to make the main thread wait for the other thread to finish.
+ * In this program, the main thread will wait for t5 to finish and then t6 will run.
+ * If we comment the join() method, then the main thread will run first and then t5 and t6 will run.
+ * join() method throws InterruptedException.
+ * Thread.sleep() method throws InterruptedException.
+ *  Thread.sleep() method is used to make the thread sleep for some time.
+ */
+
 class Mythread_5 extends Thread{
     public void run(){
         //int i = 0;
         while (true) {
             System.out.println("Hi");
             //i++;
-            
+
             try {
                 Thread.sleep(200); // this will make the thread sleep for 200 milliseconds. 
             } catch (Exception e) {
