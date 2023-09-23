@@ -1,4 +1,4 @@
-public class Reverse_String_2{
+public class string_reverse_2{
     public static void main(String[] args) {
 
         char [] s = {'h','e','l','l','o'};
