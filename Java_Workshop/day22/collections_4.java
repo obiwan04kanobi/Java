@@ -23,8 +23,11 @@ public class collections_4 {
         lis.add(10);
         lis.add(11);
         System.out.println("\nWith Generics");
-        for(Integer s :lis)
+        for(Integer s :lis) 
         {
+/*             if we have a ArrayList of different datatypes and if we want only to print 
+            Integer datatypes from the ArrayList then we can use ( Integer s:lis) in the for each loop
+ */
             System.out.println(s);
         }
     }
