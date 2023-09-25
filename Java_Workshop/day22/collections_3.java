@@ -15,12 +15,24 @@ public class collections_3 {
 
     //printing elements in alternative positions.
         Iterator it = al.iterator();
-            while (it.hasNext()) {
-                System.out.println(it.next());
-                if (it.hasNext()) 
+        while (it.hasNext()) 
+            System.out.println(it.next());
+            if (it.hasNext()) 
+            {
+                it.next();
+            }   
+
+            Iterator i = al.iterator();
+            String str = "";
+            while (i.hasNext()) {
+                str = (String) i.next();
+                if (str.equals("Kashif")) 
                 {
-                    it.next();
-                }           
-        }
+                    i.remove();
+                    System.out.println("After removing");
+                    break;
+                }
+            }  
+            System.out.println(al);      
     }
 }
