@@ -11,8 +11,8 @@ public class linked_list_2 {
         ls.add("Jatin Mehta");
         ls.add("Vijay Malya");
         System.out.println(ls);
-        System.out.println("Particular Element: "+ls.get(2));
-        ls.set(2, "Rajeev Gandhi");
+        System.out.println("Particular Element: "+ls.get(2)); //get() method returns the element at the specified index
+        ls.set(2, "Rajeev Gandhi"); //set() method replaces the element at the specified index
         System.out.println("Updated List: "+ls);
         ls.remove(3);
         ls.remove("Mehul Choksi");
