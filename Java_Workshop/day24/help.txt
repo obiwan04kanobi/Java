@@ -1,0 +1,3 @@
+tree -> sorted and ascending ordered
+hash -> unordered
+linked -> sorted and ordered
