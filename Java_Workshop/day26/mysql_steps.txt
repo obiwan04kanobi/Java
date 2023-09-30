@@ -1,0 +1,22 @@
+download mysql-installer-community-8.0.34.0
+install mysql-installer-community-8.0.34.0
+download mysql-workbench-community-8.0.34-winx64
+install mysql-workbench-community-8.0.34-winx64
+download mysql-connector-j-8.1.0 zip file
+extract mysql-connector-j-8.1.0 zip file
+bring the mysql-connector-j-8.1.0 jar file to desktop where you can access it easily
+after installing all of the above write the sql code in mysql-workbench
+after this go to net-beans and follow the below steps =>
+
+create a new project and select using ANT and java application
+write the java code
+steps for connecting to database given below=>
+open service/databases
+right click on drivers and click connect using
+click add and select JAR file
+enter password and connect
+reconnect Mydatabase using localhost
+
+Note for Apache Tomcat =>
+sometimes port 8080 
+port 8080 => 8089
