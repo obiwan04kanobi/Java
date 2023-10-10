@@ -17,8 +17,8 @@ public class dog {
         System.out.println(maltese.getinfo());
     }
 
-        // method 1
-        public String getinfo(){
-            return("Breed is: "+breed+" \nSize is: "+size+" \nAge is: "+age+" \ncolor is: "+color);
-        } 
+    // method 1
+    public String getinfo(){
+        return("Breed is: "+breed+" \nSize is: "+size+" \nAge is: "+age+" \ncolor is: "+color);
+    } 
 }
