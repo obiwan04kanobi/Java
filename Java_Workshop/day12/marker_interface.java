@@ -13,7 +13,7 @@ class mayank_1 implements marker{
     }
 }
 
-public class markup_interface {
+public class marker_interface {
     public static void main(String[] args) {
         mayank_1 a = new mayank_1();
         if (a instanceof marker){

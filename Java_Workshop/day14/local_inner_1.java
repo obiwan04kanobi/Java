@@ -1,5 +1,7 @@
 package day14;
-
+/* 
+ * Local Inner is basically Inner class inside a method of outer class
+ */
 class Local{
 
     final int s = 10;
@@ -10,6 +12,7 @@ class Local{
                 System.out.println("Students don't sleep");
             }
         }
+        //creating a object of nested-inner class inside outer class method
         Local_nested l = new Local_nested();
         l.disp();
         

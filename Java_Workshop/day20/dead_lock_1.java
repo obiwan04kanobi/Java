@@ -11,7 +11,6 @@ public class dead_lock_1 {
                         System.out.println("Hi Nitish");
                         Thread.sleep(100);
                     } catch (InterruptedException e) {
-                        // TODO: handle exception
                         e.printStackTrace();
                     }
                     synchronized(s2){
