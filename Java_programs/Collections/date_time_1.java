@@ -1,8 +1,6 @@
 package Java_programs.Collections;
 //import java.util.Date; // deprecated from java 8 onwards
-import java.time.*; // new module
-import java.util.Calendar; // Calender class is an abstract class
-import java.util.GregorianCalendar;
+import java.util.*; // Calender class is an abstract class
 import java.util.TimeZone;
 public class date_time_1 {
     public static void main(String[] args) {
