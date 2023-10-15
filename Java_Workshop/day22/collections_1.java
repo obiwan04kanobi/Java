@@ -2,6 +2,7 @@ package day22;
 import java.util.*;
 
 public class collections_1 {
+    @SuppressWarnings("unchecked") //to supress or remove type-safety warnings
     public static void main(String[] args) {
         //not using generics here hence we are not specifing any data type, so we can add any data type in it.
         

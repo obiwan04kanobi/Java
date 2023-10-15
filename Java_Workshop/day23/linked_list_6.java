@@ -5,7 +5,7 @@ import java.util.*;
 public class linked_list_6 {
     public static void main(String[] args) {
         // removeFirst() and removeLast() are the same as remove() and poll() respectively
-        Deque <String> ds = new java.util.LinkedList<>();
+        Deque <String> ds = new LinkedList<>();
         ds.add("HI");
         ds.add("Hello");
         ds.add("Welcome");

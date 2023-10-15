@@ -12,8 +12,8 @@ public class hash_set_2 {
         al.add(10);
         al.add(27);
         System.out.println("Elements in ArrayList: "+al);
-        Set<Integer> hs = new LinkedHashSet<>(al); // HashSet is a class that implements Set interface
-        hs.addAll(al); // addAll() method adds all the elements of al to hs
+        Set<Integer> hs = new LinkedHashSet<>(al); // LinkedHashSet is a class that implements Set interface
+        hs.addAll(al); // addAll() method adds all the elements of "al" to "hs"
         hs.add(32); // add() method adds an element to the set  
         System.out.println("Linked HashSet: "+hs); // Set does not allow duplicate elements
 

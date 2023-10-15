@@ -8,8 +8,8 @@ public class thread_3 {
     public static void main(String[] args) {
         Runnable obj1 = new Runnable(){
             public void run(){
-                for(int i = 1;i<=5;i++){
-                    System.out.println("Hi");
+                for(int i = 1;i<=10;i++){
+                    System.out.println("Welcome to Niet");
                     try{
                         Thread.sleep(100);
                     }
@@ -21,8 +21,8 @@ public class thread_3 {
         };
         Runnable obj2 = new Runnable(){
             public void run(){
-                for(int i = 1;i<=5;i++){
-                    System.out.println("Hello");
+                for(int i = 1;i<=10;i++){
+                    System.out.println("You made a mistake 🥰");
                     try{
                         Thread.sleep(100);
                     }

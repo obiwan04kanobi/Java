@@ -9,7 +9,7 @@ public class string_tokenizer_1{
 
         // using while loop to print tokens because the String has more than one token/word in it.
         while (st.hasMoreTokens()) {
-            System.out.println(st.nextToken());
+            System.out.println(st.nextToken()); //breaks the words of the sentence in tokens by default at spaces
         }
     }
 } 

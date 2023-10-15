@@ -22,17 +22,17 @@ public class collections_3 {
                 it.next();
             }   
 
-            Iterator i = al.iterator();
-            String str = "";
-            while (i.hasNext()) {
-                str = (String) i.next();
-                if (str.equals("Kashif")) 
-                {
-                    i.remove();
-                    System.out.println("After removing");
-                    break;
-                }
-            }  
-            System.out.println(al);      
+        Iterator i = al.iterator();
+        String str = "";
+        while (i.hasNext()) {
+            str = (String) i.next();
+            if (str.equals("Kashif")) 
+            {
+                i.remove();
+                System.out.println("After removing");
+                break;
+            }
+        }  
+        System.out.println(al);      
     }
 }

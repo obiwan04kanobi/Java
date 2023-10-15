@@ -3,6 +3,7 @@ package day22;
 import java.util.*;
 
 public class collections_4 {
+    @SuppressWarnings("unchecked") //to remove/supress type-safety warnings
     public static void main(String[] args) {
         ArrayList li = new ArrayList();
         li.add(12);
